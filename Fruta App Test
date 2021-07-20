@@ -1,0 +1,113 @@
+id: qgihM8NclEiEr1gRQTPLEA
+projectId: 24fNmLP6eEefE8agXQxHGg
+projectName: Jan Barta's first project
+created: 2021-07-20T09:04:16.3964004Z
+protocol: 1
+tests:
+- id: 5xqwTeL5WkuVLTxpqFsvpA
+  name: Fruta App Test
+  description: ''
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 0.1
+  creationDate: 2021-07-18T18:18:51.0000000
+  modificationDate: 2021-07-19T05:42:27.0000000
+  settings:
+    automationAssistant: true
+    deviceId: C83892B2-F869-4265-B138-E1A2C90F6CF8
+    appId: QrwHlBjitUqTWD-XoAFHLA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: QrwHlBjitUqTWD-XoAFHLA
+    appleBundleId: com.example.apple-samplecode.fruta
+    name: Fruta
+    platform: iOS
+  steps:
+  - id: aNssV9QG00ukalqDpLAjfw
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -H0vfMluvUG_h3gnu7WA4g
+    comments: First item in an array
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: nnZTdzmGt0aA73i3ZxTgTA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AWjTiyjpGkywqVbNhELyBQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: nnZTdzmGt0aA73i3ZxTgTA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: nnZTdzmGt0aA73i3ZxTgTA
+  name: XCUIELEMENTTYPEOTHER
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeCell[1]/XCUIElementTypeOther/XCUIElementTypeOther
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]
+    priority: 1
+projectParameters: []
+addons: []
