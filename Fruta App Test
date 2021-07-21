@@ -1,7 +1,7 @@
-id: IENDVWTdA0uhfRTobLu1Ig
+id: SAdOAJlC2EiI_8snAbuCWA
 projectId: 24fNmLP6eEefE8agXQxHGg
 projectName: Jan Barta's first project
-created: 2021-07-20T18:46:48.8155416Z
+created: 2021-07-21T08:05:52.3335760Z
 protocol: 1
 tests:
 - id: 5xqwTeL5WkuVLTxpqFsvpA
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-07-18T18:18:51.0000000
-  modificationDate: 2021-07-20T18:46:08.0000000
+  modificationDate: 2021-07-21T08:05:37.0000000
   settings:
     automationAssistant: true
     deviceId: C83892B2-F869-4265-B138-E1A2C90F6CF8
@@ -122,6 +122,27 @@ tests:
     repeat: 1
     type: Action
     elementId: v1MMbxMKyEK9E951X8BO0A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DWCyKUvRZkWmv7oq_HzEFA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: nnZTdzmGt0aA73i3ZxTgTA
     settings:
       sleepTime: -1
       timeout: -1
