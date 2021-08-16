@@ -1,18 +1,18 @@
-id: SAdOAJlC2EiI_8snAbuCWA
+id: RUYLHTglMkiTd4Q_eUvRIA
 projectId: 24fNmLP6eEefE8agXQxHGg
 projectName: Jan Barta's first project
-created: 2021-07-21T08:05:52.3335760Z
+created: 2021-08-16T11:34:31.4315320Z
 protocol: 1
 tests:
 - id: 5xqwTeL5WkuVLTxpqFsvpA
-  name: Fruta App Test
+  name: TC1 - Fruta - Favorites color
   description: ''
   platform: iOS
   type: Mobile
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-07-18T18:18:51.0000000
-  modificationDate: 2021-07-21T08:05:37.0000000
+  modificationDate: 2021-08-16T11:34:31.0000000
   settings:
     automationAssistant: true
     deviceId: C83892B2-F869-4265-B138-E1A2C90F6CF8
