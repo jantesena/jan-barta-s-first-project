@@ -1,0 +1,54 @@
+id: 69qMWmZgvEqZFHz0MCBvvg
+projectId: 24fNmLP6eEefE8agXQxHGg
+projectName: Jan Barta's first project
+created: 2021-08-16T11:35:40.2375385Z
+protocol: 1
+tests:
+- id: NkNEiaghn0qMe5pxZJXKYw
+  name: TC2 - Fruta - Changing values in Recipes
+  description: ''
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 0.1
+  creationDate: 2021-08-16T11:35:40.0000000
+  modificationDate: 2021-08-16T11:35:40.0000000
+  settings:
+    automationAssistant: true
+    appId: QrwHlBjitUqTWD-XoAFHLA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: QrwHlBjitUqTWD-XoAFHLA
+    appleBundleId: com.example.apple-samplecode.fruta
+    name: Fruta
+    platform: iOS
+  steps:
+  - id: eVe0UyBr10mdzYmjrK1dMA
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
