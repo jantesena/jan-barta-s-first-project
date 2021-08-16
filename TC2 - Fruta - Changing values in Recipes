@@ -1,7 +1,7 @@
-id: 69qMWmZgvEqZFHz0MCBvvg
+id: dTA7Tv--BEuycwBySu425A
 projectId: 24fNmLP6eEefE8agXQxHGg
 projectName: Jan Barta's first project
-created: 2021-08-16T11:35:40.2375385Z
+created: 2021-08-16T11:49:30.3448424Z
 protocol: 1
 tests:
 - id: NkNEiaghn0qMe5pxZJXKYw
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-08-16T11:35:40.0000000
-  modificationDate: 2021-08-16T11:35:40.0000000
+  modificationDate: 2021-08-16T11:47:51.0000000
   settings:
     automationAssistant: true
     appId: QrwHlBjitUqTWD-XoAFHLA
@@ -47,8 +47,191 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: uqejwF2-lUKU0JiMAuFCcw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 6rc5nUQbjU6XaOgqjQBhbQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: sn_d6BJcjkOfl_uTtVG11w
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 6ak0M6uBJ0ind4YKDP-JHA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MCw7BpgKtU6b7cb7Dy6Sng
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 6ak0M6uBJ0ind4YKDP-JHA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GbflGkeuFUqu9LIT-EPQjQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: JfRsOpPOF0KOFrBSEIJK_w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nHubqBnCLkKj6wULTFND5g
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: A4GMOL8nyUmIT4Z0moBOPQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LUeYK4dry06_91l-6m-Vow
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: A4GMOL8nyUmIT4Z0moBOPQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters: []
 auxTests: []
-elements: []
+elements:
+- id: 6rc5nUQbjU6XaOgqjQBhbQ
+  name: Recipes
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Recipes
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Recipes' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeButton[4]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTabBar[1]/XCUIElementTypeButton[4]
+    priority: 3
+- id: 6ak0M6uBJ0ind4YKDP-JHA
+  name: XCUIELEMENTTYPEOTHER1
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeCell[3]/XCUIElementTypeOther/XCUIElementTypeOther
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]
+    priority: 1
+- id: JfRsOpPOF0KOFrBSEIJK_w
+  name: XCUIELEMENTTYPEOTHER2
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeCell[4]/XCUIElementTypeOther/XCUIElementTypeOther
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[4]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]
+    priority: 1
+- id: A4GMOL8nyUmIT4Z0moBOPQ
+  name: XCUIELEMENTTYPEOTHER3
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeCell[6]/XCUIElementTypeOther/XCUIElementTypeOther
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[6]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]
+    priority: 1
 projectParameters: []
 addons: []
